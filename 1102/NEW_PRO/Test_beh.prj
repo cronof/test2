@@ -1,0 +1,4 @@
+vhdl work "ipcore_dir/test_mem.vhd"
+verilog work "../Process.v"
+verilog work "T1.v"
+verilog work "C:/Xilinx/13.4/ISE_DS/ISE//verilog/src/glbl.v"

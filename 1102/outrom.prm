@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator O.87xd
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o C:\Users\comeng\Desktop\1102//outrom -x xcf02s -u 00000000 C:/Users/comeng/Desktop/1102/NEW_PRO/process.bit 
+
+PROM C:\Users\comeng\Desktop\1102\outrom.prm map: Mon Nov 20 10:53:43 2017
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          256K
+PROM start    0000:0000
+PROM end      0003:ffff
+PROM checksum 00c55878
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0003:3da7     Nov 20 10:46:42 2017 C:/Users/comeng/Desktop/1102/NEW_PRO/process.bit

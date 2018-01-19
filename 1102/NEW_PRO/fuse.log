@@ -1,0 +1,35 @@
+Running: C:\Xilinx\13.4\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/comeng/Desktop/1102/NEW_PRO/Test_isim_beh.exe -prj C:/Users/comeng/Desktop/1102/NEW_PRO/Test_beh.prj work.Test work.glbl 
+ISim O.87xd (signature 0x2f00eba5)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/comeng/Desktop/1102/NEW_PRO/../Process.v" into library work
+Analyzing Verilog file "C:/Users/comeng/Desktop/1102/NEW_PRO/T1.v" into library work
+Analyzing Verilog file "C:/Xilinx/13.4/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Parsing VHDL file "C:/Users/comeng/Desktop/1102/NEW_PRO/ipcore_dir/test_mem.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 107304 KB
+Fuse CPU Usage: 264 ms
+Compiling module Process
+Compiling module Test
+Compiling module glbl
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package textio
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package std_logic_textio
+Compiling architecture output_stage_behavioral of entity BLK_MEM_GEN_V6_3_output_stage [\BLK_MEM_GEN_V6_3_output_stage("...]
+Compiling architecture output_stage_behavioral of entity BLK_MEM_GEN_V6_3_output_stage [\BLK_MEM_GEN_V6_3_output_stage("...]
+Compiling architecture softecc_output_reg_stage_behavioral of entity BLK_MEM_GEN_V6_3_softecc_output_reg_stage [\BLK_MEM_GEN_V6_3_softecc_output...]
+Compiling architecture mem_module_behavioral of entity BLK_MEM_GEN_V6_3_mem_module [\BLK_MEM_GEN_V6_3_mem_module("bl...]
+Compiling architecture behavioral of entity BLK_MEM_GEN_V6_3 [\BLK_MEM_GEN_V6_3("blk_mem_gen_v...]
+Compiling architecture test_mem_a of entity test_mem [test_mem_default]
+Time Resolution for simulation is 1ps.
+Waiting for 7 sub-compilation(s) to finish...
+Compiled 18 VHDL Units
+Compiled 3 Verilog Units
+Built simulation executable C:/Users/comeng/Desktop/1102/NEW_PRO/Test_isim_beh.exe
+Fuse Memory Usage: 129880 KB
+Fuse CPU Usage: 452 ms

@@ -1,0 +1,26 @@
+Central Processing Unit
+ - ALU
+ - Register
+ - CU
+ - Bus
+ - Pipeline
+ - Cache
+RISC Architecture
+FPGA
+Verilog
+
+---
+
+User-visible Registers
+ 16x 8-bit General Purpose Registers R0 - R15
+
+Special Registers
+ 8-bit Program Counter (PC)
+ 8-bit Accumulator (W)
+
+ 8-bit Instruction Register (IR)
+
+ +----------+--------+---------+
+ | Opcode   |  RA    |  RB
+ +----------+----------------------
+

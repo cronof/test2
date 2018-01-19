@@ -1,0 +1,62 @@
+xst -intstyle ise -ifn "C:/Users/comeng/Desktop/1102/NEW_PRO/Process.xst" -ofn "C:/Users/comeng/Desktop/1102/NEW_PRO/Process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/comeng/Desktop/1102/UCF.ucf -p xc3s400-tq144-4 Process.ngc Process.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o Process_map.ncd Process.ngd Process.pcf 
+par -w -intstyle ise -ol high -t 1 Process_map.ncd Process.ncd Process.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Process.twx Process.ncd -o Process.twr Process.pcf 
+bitgen -intstyle ise -f Process.ut Process.ncd 
+xst -intstyle ise -ifn "C:/Users/comeng/Desktop/1102/NEW_PRO/Process.xst" -ofn "C:/Users/comeng/Desktop/1102/NEW_PRO/Process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/comeng/Desktop/1102/UCF.ucf -p xc3s400-tq144-4 Process.ngc Process.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o Process_map.ncd Process.ngd Process.pcf 
+par -w -intstyle ise -ol high -t 1 Process_map.ncd Process.ncd Process.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Process.twx Process.ncd -o Process.twr Process.pcf 
+bitgen -intstyle ise -f Process.ut Process.ncd 
+xst -intstyle ise -ifn "C:/Users/comeng/Desktop/1102/NEW_PRO/Process.xst" -ofn "C:/Users/comeng/Desktop/1102/NEW_PRO/Process.syr" 
+xst -intstyle ise -ifn "C:/Users/comeng/Desktop/1102/NEW_PRO/Process.xst" -ofn "C:/Users/comeng/Desktop/1102/NEW_PRO/Process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/comeng/Desktop/1102/UCF.ucf -p xc3s400-tq144-4 Process.ngc Process.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o Process_map.ncd Process.ngd Process.pcf 
+par -w -intstyle ise -ol high -t 1 Process_map.ncd Process.ncd Process.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Process.twx Process.ncd -o Process.twr Process.pcf 
+bitgen -intstyle ise -f Process.ut Process.ncd 
+xst -intstyle ise -ifn "C:/Users/comeng/Desktop/1102/NEW_PRO/Process.xst" -ofn "C:/Users/comeng/Desktop/1102/NEW_PRO/Process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/comeng/Desktop/1102/UCF.ucf -p xc3s400-tq144-4 Process.ngc Process.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o Process_map.ncd Process.ngd Process.pcf 
+par -w -intstyle ise -ol high -t 1 Process_map.ncd Process.ncd Process.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Process.twx Process.ncd -o Process.twr Process.pcf 
+bitgen -intstyle ise -f Process.ut Process.ncd 
+xst -intstyle ise -ifn "C:/Users/comeng/Desktop/1102/NEW_PRO/Process.xst" -ofn "C:/Users/comeng/Desktop/1102/NEW_PRO/Process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/comeng/Desktop/1102/UCF.ucf -p xc3s400-tq144-4 Process.ngc Process.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o Process_map.ncd Process.ngd Process.pcf 
+par -w -intstyle ise -ol high -t 1 Process_map.ncd Process.ncd Process.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Process.twx Process.ncd -o Process.twr Process.pcf 
+bitgen -intstyle ise -f Process.ut Process.ncd 
+xst -intstyle ise -ifn "C:/Users/comeng/Desktop/1102/NEW_PRO/Process.xst" -ofn "C:/Users/comeng/Desktop/1102/NEW_PRO/Process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/comeng/Desktop/1102/UCF.ucf -p xc3s400-tq144-4 Process.ngc Process.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o Process_map.ncd Process.ngd Process.pcf 
+par -w -intstyle ise -ol high -t 1 Process_map.ncd Process.ncd Process.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Process.twx Process.ncd -o Process.twr Process.pcf 
+bitgen -intstyle ise -f Process.ut Process.ncd 
+xst -intstyle ise -ifn "C:/Users/comeng/Desktop/1102/NEW_PRO/Process.xst" -ofn "C:/Users/comeng/Desktop/1102/NEW_PRO/Process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/comeng/Desktop/1102/UCF.ucf -p xc3s400-tq144-4 Process.ngc Process.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o Process_map.ncd Process.ngd Process.pcf 
+par -w -intstyle ise -ol high -t 1 Process_map.ncd Process.ncd Process.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Process.twx Process.ncd -o Process.twr Process.pcf 
+bitgen -intstyle ise -f Process.ut Process.ncd 
+xst -intstyle ise -ifn "C:/Users/comeng/Desktop/1102/NEW_PRO/Process.xst" -ofn "C:/Users/comeng/Desktop/1102/NEW_PRO/Process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/comeng/Desktop/1102/UCF.ucf -p xc3s400-tq144-4 Process.ngc Process.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o Process_map.ncd Process.ngd Process.pcf 
+par -w -intstyle ise -ol high -t 1 Process_map.ncd Process.ncd Process.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Process.twx Process.ncd -o Process.twr Process.pcf 
+bitgen -intstyle ise -f Process.ut Process.ncd 
+xst -intstyle ise -ifn "C:/Users/comeng/Desktop/1102/NEW_PRO/Process.xst" -ofn "C:/Users/comeng/Desktop/1102/NEW_PRO/Process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/comeng/Desktop/1102/UCF.ucf -p xc3s400-tq144-4 Process.ngc Process.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o Process_map.ncd Process.ngd Process.pcf 
+par -w -intstyle ise -ol high -t 1 Process_map.ncd Process.ncd Process.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Process.twx Process.ncd -o Process.twr Process.pcf 
+bitgen -intstyle ise -f Process.ut Process.ncd 
+xst -intstyle ise -ifn "C:/Users/comeng/Desktop/1102/NEW_PRO/Process.xst" -ofn "C:/Users/comeng/Desktop/1102/NEW_PRO/Process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/comeng/Desktop/1102/UCF.ucf -p xc3s400-tq144-4 Process.ngc Process.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o Process_map.ncd Process.ngd Process.pcf 
+par -w -intstyle ise -ol high -t 1 Process_map.ncd Process.ncd Process.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Process.twx Process.ncd -o Process.twr Process.pcf 
+bitgen -intstyle ise -f Process.ut Process.ncd 
+netgen -intstyle ise -s 4  -pcf Process.pcf -rpw 100 -tpw 0 -ar Structure -tm Process -w -dir netgen/map -ofmt vhdl -sim Process_map.ncd Process_map.vhd 

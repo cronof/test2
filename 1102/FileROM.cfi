@@ -1,0 +1,11 @@
+# PROMGEN: Xilinx Prom Generator O.87xd
+# Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION O.87xd
+DATE            11/19/2017 - 13:25
+SOURCE          C:\Users\comeng\Desktop\1102\FileROM.mcs
+DEVICE          XCF02S
+DATA_WIDTH      8
+FILL_DATA       0xFF
+SIGNATURE       0x00C55878
+START_ADDRESS   0x00000000 END_ADDRESS 0x00033DA7 DIRECTION_UP   "C:/Users/comeng/Desktop/1102/NEW_PRO/process.bit" 3s400tq144

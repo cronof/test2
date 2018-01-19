@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v13.4
+# Build 157570 by hdbuild on Fri Dec 16 12:55:36 MST 2011
+# Start of session at: Sat Dec 16 20:07:27 2017
+# Process ID: 3340
+# Log file: C:/Users/comeng/Desktop/1102/NEW_PRO/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/comeng/Desktop/1102/NEW_PRO/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/comeng/Desktop/1102/NEW_PRO/pa.fromNcd.tcl

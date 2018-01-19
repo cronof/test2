@@ -1,0 +1,21 @@
+// R0 Multiplicand
+// R1 Multiplier
+// R2 Result
+// R14 #1
+// R15 Return Position (Call Stack)
+
+LOAD R0, #5
+LOAD R1, #7
+CALLZ 0, UNSIGNED_MULTIPLY, R15
+OUT R2
+HALT
+
+UNSIGNED_MULTIPLY:
+  LOAD R2, #0
+  LOAD R14, #1
+ MULTIPLY_LOOP:
+   ADD R0, R2, R2
+   SUB R1, R14, R1
+   BRALZ R1, MULTIPLY_LOOP
+  BRA R15
+  
